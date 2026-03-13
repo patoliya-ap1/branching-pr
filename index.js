@@ -10,6 +10,8 @@ app.get("/user", (req, res) => {
   res.status(200).json({ message: "user route" });
 });
 
+// comment 1
+
 const Port = 3000;
 app.listen(Port, () => {
   console.log(`Server is running on port ${Port}`);
